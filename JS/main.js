@@ -178,9 +178,9 @@ class InsectCatalog {
 // Inicializar cuando se cargue la página
 document.addEventListener("DOMContentLoaded", () => {
   const catalog = new InsectCatalog();
-  
+
   // Hacer el método handleImageError accesible globalmente
-  window.handleImageError = function(img, insectName) {
+  window.handleImageError = function (img, insectName) {
     catalog.handleImageError(img, insectName);
   };
 });

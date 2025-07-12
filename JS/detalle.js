@@ -57,7 +57,7 @@ class InsectDetail {
       } else if (!imageUrl || imageUrl.trim() === "") {
         imageUrl = "../RECURSOS/IMAGENES/insects.png";
       }
-      
+
       imageElement.src = imageUrl;
       imageElement.alt = insect.nombre;
       imageElement.style.opacity = "0";
