@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../RECURSOS/IMAGENES/praying-mantis.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/detalle.css">
+    <title>Detalle del Insecto</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="back-btn" onclick="goBack()">
+                ← Volver al Catálogo
+            </button>
+        </header>
+
+        <main class="detail-container">
+            <div class="detail-card">
+                <div class="image-section">
+                    <img id="insect-image" src="" alt="" class="detail-image">
+                </div>
+
+                <div class="info-section">
+                    <h1 id="insect-name" class="detail-title"></h1>
+
+                    <div class="characteristics-grid">
+                        <div class="characteristic-item">
+                            <h3>🔍 Forma</h3>
+                            <p id="forma-text"></p>
+                        </div>
+
+                        <div class="characteristic-item">
+                            <h3>📡 Antenas</h3>
+                            <p id="antenas-text"></p>
+                        </div>
+
+                        <div class="characteristic-item">
+                            <h3>🦋 Alas</h3>
+                            <p id="alas-text"></p>
+                        </div>
+
+                        <div class="characteristic-item">
+                            <h3>🏡 Hábitat</h3>
+                            <p id="habitat-text"></p>
+                        </div>
+
+                        <div class="characteristic-item full-width">
+                            <h3>🔑 Notas Clave</h3>
+                            <p id="notas-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="../JS/detalle.js"></script>
+</body>
+
+</html>
